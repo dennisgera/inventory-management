@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>Inventory Management System</h1>
+  <div class="container">
+    <h1 class="my-4">Inventory Management System</h1>
     <AddInventoryItem @itemAdded="fetchItems" />
     <InventoryList ref="inventoryList" />
   </div>
